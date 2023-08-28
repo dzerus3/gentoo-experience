@@ -1,0 +1,21 @@
+# Installs ncat and nping utilities
+net-analyzer/nmap ncat nping
+
+# Installs tracepath utility
+net-misc/iputils tracepath
+
+# Removes optional GUI interface
+net-analyzer/mtr -gtk
+
+# Removes sync functionality
+app-misc/task -sync
+
+# Allows pass to create PNG QR codes
+media-gfx/qrencode png
+# Pass dependency; removes optional GUI interfaces (so they don't get prioritized)
+app-crypt/pinentry -gtk -qt5
+
+app-misc/cheat man
+
+# QEMU dependency
+media-libs/libsdl2 gles2

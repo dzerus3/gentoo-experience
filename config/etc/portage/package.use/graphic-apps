@@ -1,0 +1,23 @@
+# Anki dependencies
+dev-python/PyQT5 svg
+# Don't pull npm in just for anki
+net-libs/nodejs -npm -snapshot
+
+# Adds additional image format support
+media-gfx/imv png jpeg gif heic svg
+
+# virt-manager dependencies
+net-dns/dnsmasq script
+net-misc/spice-gtk usbredir
+
+# Remmina dependency
+dev-libs/libdbusmenu gtk3
+# Adds rdp funcionality
+net-misc/remmina rdp
+
+# GIMP dependencies
+media-libs/babl introspection
+media-libs/gegl introspection
+
+# Adds extra file formats to zathura
+app-text/zathura-meta cb pdf djvu

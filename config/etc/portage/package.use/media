@@ -1,0 +1,22 @@
+# Adds support for webp videos, streaming over https, opus files.
+media-video/ffmpeg webp openssl opus vulkan network
+# Removes some dependencies and unnecessary tools.
+media-video/ffmpeg -opengl -sdl -postproc
+media-video/ffmpeg FFTOOLS: ""
+
+# Remove a lot of dependencies
+media-sound/mpd libmpdclient opus -cue -dbus -udisks
+
+# Adds some extra widgets
+media-sound/ncmpcpp lto clock taglib
+
+# Audacity dependency
+dev-libs/libpcre2 pcre32
+# Adds some extra features
+media-sound/audacity ffmpeg opus
+
+# Removes some dependencies
+media-video/mpv vulkan -opengl -xv -dvd -drm
+
+# Removes a lot of dependencies
+media-sound/strawberry -udisks

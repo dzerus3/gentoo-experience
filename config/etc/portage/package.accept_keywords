@@ -1,0 +1,34 @@
+www-misc/buku ~amd64
+
+gui-apps/tuigreet ~amd64
+
+gui-apps/waybar ~amd64
+
+dev-libs/date ~amd64
+
+x11-misc/vym ~amd64
+
+www-client/firefox:rapid ~amd64
+
+www-apps/hugo ~amd64
+
+app-editors/neovim ~amd64
+
+# Development version of gimp
+media-gfx/gimp **
+media-libs/gegl ~amd64
+
+# Utilities from GURU
+gui-apps/fuzzel ~amd64
+app-admin/chezmoi ~amd64
+app-shells/zoxide ~amd64
+app-misc/lf ~amd64
+app-misc/tealdeer ~amd64
+app-misc/cheat ~amd64
+app-misc/navi ~amd64
+app-shells/vivid ~amd64
+
+app-misc/anki-bin ~amd64
+dev-python/stringcase ~amd64
+
+app-office/beancount ~amd64

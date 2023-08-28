@@ -1,0 +1,18 @@
+# Removes some dependencies
+sys-power/suspend -crypt -lzo
+
+# Without this flag, you don't get lvm-related tools
+sys-fs/lvm2 lvm
+
+# Removes the manpager. I don't know, I just don't feel it's necessary.
+sys-apps/man-db -manpager
+
+# Adds persist functionality to doas. Potentially insecure, but convenient.
+app-admin/doas persist
+
+# Adds initramfs compatibility for firmware
+sys-kernel/linux-firmware initramfs
+
+sys-apps/util-linux caps
+
+sys-boot/grub mount

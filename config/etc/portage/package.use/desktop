@@ -1,0 +1,18 @@
+# Adds some widgets
+gui-apps/waybar mpd network wifi
+# Removes unnecessary dependencies
+gui-apps/waybar -upower -logind -systemd -libinput
+
+# Adds wallpaper functionality
+gui-wm/sway wallpapers
+gui-apps/swaybg gdk-pixbuf
+x11-libs/gdk-pixbuf jpeg
+# Removes unnecessary utilities
+gui-wm/sway -swaynag -swaybar -grimshot
+
+# Allows using pure seatd for logins
+sys-auth/seatd -elogind builtin server
+
+# Sets up pipewire as a sound server on top of alsa
+media-video/pipewire sound-server pipewire-alsa -aac -aptx -bluetooth
+media-video/wireplumber -elogind
