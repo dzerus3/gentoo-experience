@@ -3,6 +3,7 @@ www-misc/buku ~amd64
 gui-apps/tuigreet ~amd64
 
 gui-apps/waybar ~amd64
+gui-apps/waybar **
 
 dev-libs/date ~amd64
 
@@ -13,10 +14,16 @@ www-client/firefox:rapid ~amd64
 www-apps/hugo ~amd64
 
 app-editors/neovim ~amd64
+dev-lua/luv ~amd64
+dev-libs/libvterm ~amd64
 
 # Development version of gimp
 media-gfx/gimp **
 media-libs/gegl ~amd64
+
+net-misc/yt-dlp ~amd64
+
+sys-apps/moar ~amd64
 
 # Utilities from GURU
 gui-apps/fuzzel ~amd64
