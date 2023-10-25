@@ -20,6 +20,7 @@ Once all the packages are installed, you need to do the following:
 
 1. Set the `display-manager` service to start on boot.
 2. Edit `/etc/conf.d/display-manager` to set `DISPLAYMANAGER=greetd`
-3. Set `tuigreet` as the greeter by editing `/etc/greetd/config.toml` and adding `command = "tuigreet --cmd 'dbus-run-session sway'`. Consider also adding commands for `--power-reboot` and `--power-shutdown`.
+3. Set `tuigreet` as the greeter by editing `/etc/greetd/config.toml` and adding `command = "tuigreet --cmd sway`. Consider also adding commands for `--power-reboot` and `--power-shutdown`.
 4. Set the `seatd` service to start on boot.
-5. Create a `.profile` file in each user's home directory and write a script to set the `XDG_RUNTIME_DIR` variable. Adding it to `/etc/skel` may be a good idea.
+5. Set the `elogind` service to start on boot.
+6. Create a `.profile` file in each user's home directory and write a script to set the `XDG_RUNTIME_DIR` variable. Adding it to `/etc/skel` may be a good idea.

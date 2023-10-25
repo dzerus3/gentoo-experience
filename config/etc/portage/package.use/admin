@@ -2,7 +2,7 @@
 sys-power/suspend -crypt -lzo
 
 # Without this flag, you don't get lvm-related tools
-sys-fs/lvm2 lvm
+#sys-fs/lvm2 lvm
 
 # Removes the manpager. I don't know, I just don't feel it's necessary.
 sys-apps/man-db -manpager
@@ -11,7 +11,7 @@ sys-apps/man-db -manpager
 app-admin/doas persist
 
 # Adds initramfs compatibility for firmware
-sys-kernel/linux-firmware initramfs
+#sys-kernel/linux-firmware initramfs
 
 sys-apps/util-linux caps
 

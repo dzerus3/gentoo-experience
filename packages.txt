@@ -46,6 +46,8 @@ media-fonts/opendesktop-fonts
 media-video/pipewire
 media-video/wireplumber
 sys-auth/seatd
+sys-auth/elogind
+sys-auth/rtkit
 gui-apps/wayland-logout
 x11-misc/xdg-user-dirs
 
@@ -58,9 +60,7 @@ app-shells/zoxide
 app-shells/zsh
 games-misc/fortune-mod
 dev-util/git-delta
-x11-misc/xdg-user-dirs
 x11-terms/alacritty
-x11-terms/kitty-terminfo
 
 # graphic-apps
 app-admin/keepassxc

@@ -39,3 +39,5 @@ app-misc/anki-bin ~amd64
 dev-python/stringcase ~amd64
 
 app-office/beancount ~amd64
+
+net-news/newsboat ~amd64

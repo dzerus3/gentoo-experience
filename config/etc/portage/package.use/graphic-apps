@@ -1,5 +1,9 @@
 # Anki dependencies
-dev-python/PyQT5 svg
+dev-python/PyQT5 svg webchannel
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+sys-libs/zlib minizip
+
 # Don't pull npm in just for anki
 net-libs/nodejs -npm -snapshot
 
@@ -21,3 +25,6 @@ media-libs/gegl introspection
 
 # Adds extra file formats to zathura
 app-text/zathura-meta cb pdf djvu
+
+# Removes transmission GTK GUI
+net-p2p/transmission -gtk
